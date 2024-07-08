@@ -9,7 +9,7 @@ import SwiftUI
 
 struct ContentView: View {
     enum Emoji: String, CaseIterable{
-        case 😄, 😎,🤩,👻,🥦,🐝
+        case 😄, 😎,🤩,👻,🥦,🐝,🥹
     }
     @State var myEmoji: Emoji = .🐝
     var body: some View {
